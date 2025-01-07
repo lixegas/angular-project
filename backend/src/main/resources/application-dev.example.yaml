@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url:
+    username:
+    password:
+    driverClassName:
+
+  jpa:
+    hibernate:
+      ddl-auto:
+    show-sql:
+    properties:
+      hibernate.dialect:
