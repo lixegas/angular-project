@@ -1,12 +1,11 @@
-﻿
-## Backend ##
+﻿## Backend ##
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+### Spring Tool Suite (STS) ###
 .apt_generated
 .classpath
 .factorypath
@@ -31,8 +30,68 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+### Visual Studio Code (VS Code) ###
 .vscode/
 
+### Application-specific ###
 backend/src/main/resources/application-dev.yaml
 
+## Logs and temp files ##
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.seed
+*.pid
+
+## OS-specific ##
+.DS_Store
+Thumbs.db
+
+## Front-end ##
+my-app/node_modules/
+
+### Angular CLI specific ###
+dist/
+tmp/
+out-tsc/
+.angular/
+.angular-cache/
+
+### IDE and Editor files ###
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+### Logs and debug files ###
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### Dependency directories ###
+bower_components/
+
+### Coverage and build outputs ###
+coverage/
+www/
+
+### Environment files ###
+.env
+.env.*
+
+### Firebase ###
+.firebase/
+firebase-debug.log
+
+### Miscellaneous ###
+*.dll
+*.exe
+*.so
+*.dylib
+*.tgz
+*.lock
+*.gz
+*.zip
+my-app/README.md
