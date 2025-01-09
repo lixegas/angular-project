@@ -95,3 +95,5 @@ firebase-debug.log
 *.gz
 *.zip
 my-app/README.md
+my-app/src/enviroments
+backend/src/main/resources/database.txt

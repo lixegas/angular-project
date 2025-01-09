@@ -1,0 +1,20 @@
+<div class="container">
+  <header>
+    <h1>{{ title }}</h1>
+  </header>
+
+  <main>
+    <div class="container">
+      <nav>
+        <a routerLink="/users" routerLinkActive="active" ariaCurrentWhenActive="page">User List</a> |
+        <a routerLink="/create-user" routerLinkActive="active" ariaCurrentWhenActive="page">Create User</a> 
+      </nav>
+
+      <router-outlet></router-outlet> 
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 La mia applicazione Angular</p>
+  </footer>
+</div>
