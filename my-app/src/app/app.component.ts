@@ -8,5 +8,5 @@ import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'My first Angular Application';
+  title = 'MY FIRST ANGULAR APPLICATION';
 }

@@ -38,10 +38,6 @@ nav a {
 }
 
 
-nav a:active {
-  background-color: #0056b3;
-  color: #fff;
-}
 
 nav ul {
   list-style: none;
