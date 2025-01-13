@@ -15,19 +15,11 @@ public class DataSourceConfig {
     @Value("${spring.datasource.url}")
     private String url;
 
-    @Value("${spring.datasource.username}")
-    private String username;
-
-    @Value("${spring.datasource.password}")
-    private String password;
-
     @Bean
     public DataSource getDataSource() {
         return DataSourceBuilder.create()
                 .driverClassName(driverClassName)
                 .url(url)
-                .username(username)
-                .password(password)
                 .build();
     }
 }

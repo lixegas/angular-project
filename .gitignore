@@ -35,6 +35,7 @@ build/
 
 ### Application-specific ###
 backend/src/main/resources/application-dev.yaml
+backend/src/main/resources/database/mydatabase.db
 
 ## Logs and temp files ##
 *.log
