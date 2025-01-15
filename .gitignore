@@ -34,7 +34,6 @@ build/
 .vscode/
 
 ### Application-specific ###
-backend/src/main/resources/application-dev.yaml
 backend/src/main/resources/database/mydatabase.db
 
 ## Logs and temp files ##
@@ -96,4 +95,4 @@ firebase-debug.log
 *.gz
 *.zip
 my-app/README.md
-backend/src/main/resources/database.txt
+

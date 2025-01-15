@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:src/main/resources/database/mydatabase.db
+    driverClassName: org.sqlite.JDBC
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.dialect: org.hibernate.community.dialect.SQLiteDialect
+
+
