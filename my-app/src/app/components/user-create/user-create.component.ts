@@ -20,6 +20,7 @@ export class UserCreateComponent {
   createUser(): void {
     this.userService.createUser(this.newUser).subscribe(() => {
       this.router.navigate(['/users']);
+      this.newUser = { id: 0, name: '', surname: '', email: '' }; 
     });
   }
 }

@@ -1,8 +1,8 @@
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './components/home/home.component';
+import { HomeComponent } from './components/user-list/user-list.component';
 import { UserCreateComponent } from './components/user-create/user-create.component';
-import { UpdateUserComponent } from './components/user-update/update-user.component';
-import { DeleteUserComponent } from './components/delete-update/delete-user.component';
+import { UpdateUserComponent } from './components/user-update/user-update.component';
+import { DeleteUserComponent } from './components/user-delete/user-delete.component';
 
 
 export const routes: Routes = [
